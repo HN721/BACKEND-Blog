@@ -17,7 +17,6 @@ const postSchema = new monggose.Schema({
   author: {
     type: monggose.Schema.Types.ObjectId,
     ref: "User",
-    required: true,
   },
   nextEarningDate: {
     type: Date,
