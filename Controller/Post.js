@@ -1,4 +1,4 @@
-const Post = require("../Model/Post");
+const Post = require("../Model/Post/Post");
 
 const PostController = {
   createPost: async (req, res) => {
